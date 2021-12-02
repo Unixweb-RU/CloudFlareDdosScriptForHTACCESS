@@ -1,4 +1,4 @@
-# CloudFlareDdosScriptForHTACCESS
+# Настройка htaccess для работы с сервисо CloudFlare для отражения Ddos атаки
 Простой скрипт с автоматически обновляемыми IP для настройки .htaccess правил для работы с CloudFlare в режиме Ddos защиты
 
 Всем привет!
