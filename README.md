@@ -5,24 +5,31 @@
 Работаем в терминале. 
 Обязательно устанавливаем пакеты nano, git и curl, повышаем привилегии su или sudo.
 Установка для Debian/Ubintu
+
 $ sudo apt install nano git curl
 
 Установка для Centos
+
 $ sudo yum install nano git curl 
 
 Переходим в каталог пользователя - это может быть /home/youruser или /var/www/youruser, youruser имя пользователя
+
 $ cd
 
 Для начала нужжно создать скрипт для запуска, можно сделать так
+
 $ git clone https://github.com/Unixweb-RU/CloudFlareDdosScriptForHTACCESS.git
 
 Переходим в каталог 
+
 $ cd CloudFlareDdosScriptForHTACCESS
 
 Делаем исполняемым наш файл, хотя в нашем случае не обязательно это делать 
+
 $ chmod +x cloudflare-update-htaccess.sh
 
 Создаем задание в cron 
+
 $ EDITOR=nano crontab -e
 
 Добавляем строчки
