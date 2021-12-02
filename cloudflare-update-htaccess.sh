@@ -1,7 +1,7 @@
 #!/bin/bash
-#Путь для генирируемых правил в файле .htaccess
+# Путь для генирируемых правил в файле .htaccess
 htaccess_path="/home/youruser/www/your.site/.htaccess"
-#Путь для настроек основных правил в файле .htaccess
+# Путь для настроек основных правил в файле .htaccess
 htaccess_rules="/home/youruser/htaccess"
 echo "# Cloudflare IPv4 Rule Start
 Order Deny,Allow
