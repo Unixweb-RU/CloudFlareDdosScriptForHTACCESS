@@ -4,6 +4,7 @@
 Всем привет!
 Работаем в терминале. 
 Обязательно устанавливаем пакеты nano, git и curl, повышаем привилегии su или sudo.
+
 Установка для Debian/Ubintu
 
 $ sudo apt install nano git curl
