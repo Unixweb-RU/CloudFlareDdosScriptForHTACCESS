@@ -42,7 +42,7 @@ $ EDITOR=nano crontab -e
 
 Путь для  генирируемых правил в файле .htaccess
 
-htaccess_path="/home/youruser/www/new-simple-payment.site/.htaccess"
+htaccess_path="/home/youruser/www/your.site/.htaccess"
 
 Путь для настроек основных правил в файле .htaccess
 
