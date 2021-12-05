@@ -12,3 +12,4 @@ echo "# Cloudflare IPv6 Rule Start" >> $htaccess_path;
 while read ip ; do echo "allow from $ip" >> $htaccess_path; done <<< "$(curl https://www.cloudflare.com/ips-v6)"
 echo "# End of the IPv6 Cloudflare Rule" >> $htaccess_path;
 echo "# Other htaccess rules" >> $htaccess_path;
+cat $htaccess_rules >> $htaccess_path;
